@@ -1,6 +1,9 @@
 ﻿namespace BasicTools;
-public class Class1
+public class StringHelper 
 {
-
+public DateTime ToDateTime(this string value)
+{
+    return new DateTime(value);
+}
 }
 
